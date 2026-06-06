@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
-import { trips } from "@/mock/trips";
+import { trips } from "@/mock/trip";
 
 export default function TripDetailPage({
   params,

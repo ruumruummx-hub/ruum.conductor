@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Settings } from "lucide-react";
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
-import { trips } from "@/mock/trips";
+import { trips } from "@/mock/trip";
 
 export default function PanelPage() {
   const activeTrip = trips.find((trip) => trip.status === "accepted");

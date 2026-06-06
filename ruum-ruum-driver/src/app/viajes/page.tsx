@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
-import { trips } from "@/mock/trips";
+import { trips } from "@/mock/trip";
 
 export default function ViajesPage() {
   return (
