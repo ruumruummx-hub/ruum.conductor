@@ -8,7 +8,7 @@ const items = [
   { href: "/", label: "Panel", icon: LayoutGrid },
   { href: "/viajes", label: "Viajes", icon: Map },
   { href: "/dinero", label: "Mi Dinero", icon: Wallet },
-];
+] as const;
 
 export function BottomNav() {
   const pathname = usePathname();
@@ -25,7 +25,7 @@ export function BottomNav() {
             <Link
               key={item.href}
               href={item.href}
-              className={`flex flex-col items-center gap-1 text-xs font-bold ${
+              className={`flex flex-col items-center gap-1 text-xs font-bold transition ${
                 active ? "text-[#FFC400]" : "text-white/60"
               }`}
             >

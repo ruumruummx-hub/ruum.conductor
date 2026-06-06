@@ -1,6 +1,6 @@
+import { Bell, FileText, Headphones, LogOut, User } from "lucide-react";
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
-import { User, FileText, Bell, Headphones, LogOut } from "lucide-react";
 
 const items = [
   { label: "Perfil", icon: User },
@@ -8,7 +8,7 @@ const items = [
   { label: "Preferencias", icon: Bell },
   { label: "Soporte", icon: Headphones },
   { label: "Cerrar sesión", icon: LogOut },
-];
+] as const;
 
 export default function ConfiguracionPage() {
   return (
