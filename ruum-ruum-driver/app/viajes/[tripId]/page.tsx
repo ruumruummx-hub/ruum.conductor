@@ -1,4 +1,3 @@
-
 import { notFound } from "next/navigation";
 import { AppShell } from "@/components/layout/AppShell";
 import { Card } from "@/components/ui/Card";
